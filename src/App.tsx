@@ -6,7 +6,7 @@ import ReactLogo from './logo-react.svg'
 const App = () => {
     return (
         <div>
-            <h1>React Typescript</h1>
+            <h1>React Typescript - {process.env.NODE_ENV} {process.env.name}</h1>
             <img src={Logo} alt="img"/>
             <img src={ReactLogo} alt="img"/>
         </div>
